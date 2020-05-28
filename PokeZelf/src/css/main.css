@@ -1,0 +1,165 @@
+/*Global*/
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*Header*/
+
+.header{
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	height: 70px;
+	line-height: 70px;
+	background-color: #333333;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+
+.header .header-logo{
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	float: left;
+	margin-left: 20px;
+	font-size: 30px;
+}
+
+.header .header-menu{
+	float: right;
+	margin-right: 20px;
+}
+
+.header .header-menu a{
+	margin: 10px;
+	color: #ffffff;
+}
+
+.header .header-menu a:hover{
+	color: #3498db;
+}
+
+/*Banner*/
+
+.banner .banner-image{
+	position: relative;
+	width: 100%;
+}
+
+.banner .banner-content{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 40%;
+}
+
+.banner .banner-content h1{
+	color: #ffffff;
+}
+
+.banner .banner-content h2{
+	color: #ffffff;
+}
+
+/*About*/
+
+.about .about-single-element{
+	text-align: center;
+}
+
+.about .about-single-element p{
+	text-align: justify;
+}
+
+/*Generation Selection*/
+
+.gendex .gendex-single-element{
+	text-align: center;
+}
+
+.gen-4-selection{
+	background-color: rgb(104, 148, 183);
+}
+
+.gen-4-selection:hover{
+	background-color: rgb(64, 102, 134);
+	transition: 0.2s;
+}
+
+.gen-4-selection p{
+	color: #ecf0f1;
+}
+
+.gen-5-selection{
+	background-color: rgb(170, 100, 85);
+}
+
+.gen-5-selection:hover{
+	background-color: rgb(136, 60, 60);
+	transition: 0.2s;
+}
+
+.gen-5-selection p{
+	color: #ecf0f1;
+}
+
+/*Menu Selection*/
+
+.subtitle-menu-selection{
+	text-align: center;
+}
+
+.menu-img{
+	margin-left: 20px;
+	vertical-align: middle;
+}
+
+/*Footer*/
+
+.footer-title{
+	text-align: right;
+}
+
+.footer{
+	background-color: #ecf0f1;
+	margin-top: 15px;
+}
+
+.footer-img{
+	vertical-align: middle;
+}
+
+/*Pokemon Types Color (Pokedex)*/
+
+.dex-4 .dex-4-single-element{
+	text-align: center;
+}
+
+.grass{
+	background-color: rgb(79, 199, 112);
+}
+
+.grass p{
+	color: white;
+}
+
+.grass:hover{
+	background-color: rgb(33, 116, 35);
+	transition: 0.2s;
+}
+
+.fire{
+	background-color: rgb(253, 136, 48);
+}
+
+.fire p{
+	color: white;
+}
+
+.fire:hover{
+	background-color: rgb(172, 65, 19);
+	transition: 0.2s;
+}
